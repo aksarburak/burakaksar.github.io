@@ -1,15 +1,16 @@
 
-### Research
+#### Research
 
 Research Interests: Applied Machine Learning, Interpretability, Explainability and Fairness in Machine Learning, Monitoring and Management of Large-Scale Systems, High-Performance Computing
 
-[Monitoring and Analytics of Large-Scale Production Data Centers]
+## Automated Monitoring and Analytics of Large-Scale Production Data Centers
 
-Developing machine learning based frameworks to automate High Performance Computing (HPC) systems’ performance analytics and improve security such as application detection and performance anomaly diagnosis
+Developing deep learning based frameworks to automate High Performance Computing (HPC) systems’ performance analytics and improve security such as application detection and performance anomaly diagnosis
 
 ---
-[Explainablity and Interpretability in AI]
+## Explainablity and Fairness in AI
 
+Researching on model-agnostic, example based explainability techniques for time series classification and forecasting models
 
 ---
 
