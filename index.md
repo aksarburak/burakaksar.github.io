@@ -1,20 +1,20 @@
 
-#### Research
+## Research
 
 Research Interests: Applied Machine Learning, Interpretability, Explainability and Fairness in Machine Learning, Monitoring and Management of Large-Scale Systems, High-Performance Computing
 
-## Automated Monitoring and Analytics of Large-Scale Production Data Centers
+### Automated Monitoring and Analytics of Large-Scale Production Data Centers
 
 Developing deep learning based frameworks to automate High Performance Computing (HPC) systems’ performance analytics and improve security such as application detection and performance anomaly diagnosis
 
 ---
-## Explainablity and Fairness in AI
+### Explainablity and Fairness in AI
 
 Researching on model-agnostic, example based explainability techniques for time series classification and forecasting models
 
 ---
 
-### Publications
+## Publications
 [1] [A Machine Learning Approach to Understanding HPC Application Performance Variation](/publications/ML4HPC_SC19.pdf)
 
 B. Aksar, B. Schwaller, O. Aaziz, E. Ates, J. Brandt, V.J. Leung, M. Egele, A.K. Coskun 
