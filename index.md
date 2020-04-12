@@ -8,7 +8,7 @@ Research Interests: Applied Machine Learning, Interpretability, Explainability a
 Developing deep learning based frameworks to automate High Performance Computing (HPC) systems’ performance analytics and improve security such as application detection and performance anomaly diagnosis
 
 ---
-### Explainablity and Fairness in AI
+### Explainability and Fairness in AI
 
 Researching on model-agnostic, example based explainability techniques for time series classification and forecasting models
 
