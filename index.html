@@ -3,17 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Burak Aksar — builds things that ship</title>
+  <title>Burak Aksar</title>
   <meta name="description" content="Burak Aksar. CTO &amp; co-founder. PhD in ML systems. Production AI, end-to-end.">
   <link rel="canonical" href="https://burakaksar.com/">
   <meta property="og:title" content="Burak Aksar">
-  <meta property="og:description" content="CTO &amp; co-founder. PhD in ML systems. Builds things that ship.">
+  <meta property="og:description" content="CTO &amp; co-founder. PhD in ML systems. Production AI, end-to-end.">
   <meta property="og:url" content="https://burakaksar.com/">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://burakaksar.com/images/profile.jpg">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="/images/favicon_ai.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHY2R0J02K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-RHY2R0J02K");
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
   <script>
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       document.documentElement.classList.add("js-anim");
@@ -24,11 +33,10 @@
   <header class="mast">
     <a class="wordmark" href="#top">Burak Aksar</a>
     <nav class="nav">
-      <a href="#now">Now</a>
-      <a href="#built">Built</a>
       <a href="#work">Work</a>
       <a href="#papers">Papers</a>
-      <a href="#contact">Coffee</a>
+      <a href="#notes">Also</a>
+      <a href="#hi">Hi</a>
     </nav>
   </header>
 
@@ -38,30 +46,10 @@
         <span class="clip"><span class="clip-inner">this is</span></span>
         <span class="clip"><span class="clip-inner">Burak.</span></span>
       </h1>
-      <div class="hero-side">
-        <p class="lede">
-          CTO &amp; co-founder. PhD in ML systems.
-          I build production AI — end-to-end, not demos.
-        </p>
-      </div>
-    </section>
-
-    <section class="block reveal" id="now">
-      <h2 class="label">Now</h2>
-      <p class="statement">
-        CTO &amp; co-founder at <a href="https://spiky.ai" target="_blank" rel="noopener">Spiky</a>.
-        PhD in ML systems. Previously IBM Research and Sandia.
+      <p class="lede">
+        CTO &amp; co-founder. PhD in ML systems.
+        I build <em class="mark">production</em> AI, end-to-end, not demos.
       </p>
-    </section>
-
-    <section class="block" id="built">
-      <h2 class="label reveal">Built</h2>
-      <ul class="cv-list">
-        <li>R&amp;D and production deployment across LLMs, computer vision, NLP, and speech — including a router over OpenAI, Anthropic, and Gemini.</li>
-        <li>Real-time inference for live in-call coaching: agents fire on the call, tool calls only when something actually happens.</li>
-        <li>Eval that checks model output against the transcript, with a second pass for hallucinations, before a release ships.</li>
-        <li>End-to-end architectures for enterprise customers — LLMs, RAG, custom models — into CRM, compliance, and telephony.</li>
-      </ul>
     </section>
 
     <section class="block" id="work">
@@ -69,11 +57,12 @@
       <ol class="work">
         <li>
           <div class="work-head">
-            <h3>Spiky.ai</h3>
+            <h3><a href="https://spiky.ai" target="_blank" rel="noopener">Spiky.ai</a></h3>
             <p class="work-role">CTO &amp; Co-Founder</p>
-            <p class="work-when">2024 —</p>
+            <p class="work-when">2024-</p>
           </div>
-          <p class="work-body">Conversation intelligence. I own the technical side — models, eval, and getting it into a product people actually run.</p>
+          <p class="work-body">Sales runs on data, but the feedback is always after the fact. We’re trying to give every rep a personal Jarvis: it listens, finds the patterns behind a win, and puts them to work live.</p>
+          <p class="work-body">Right now I’m deep into agentic graph architectures and self-improving loops: AI that gets better without manual intervention. Been studying Karpathy’s lecture on agents, loops, graphs, self-improving systems. Open to more suggestions.</p>
         </li>
         <li>
           <div class="work-head">
@@ -81,7 +70,7 @@
             <p class="work-role">Research Scientist Intern</p>
             <p class="work-when">2021, 2022</p>
           </div>
-          <p class="work-body">Multi-intent parser for conversational multi-agent systems. Production. Two patents.</p>
+          <p class="work-body">Before LLMs were everywhere, I worked on making chatbot decisions explainable. Built a parser for multi-intent requests that matched deep learning accuracy at 48x the speed. Two patents came out of it.</p>
         </li>
         <li>
           <div class="work-head">
@@ -89,83 +78,116 @@
             <p class="work-role">ML Engineer Intern</p>
             <p class="work-when">2019, 2020</p>
           </div>
-          <p class="work-body">Runtime anomaly diagnosis on production HPC, and forecasting on the same telemetry.</p>
+          <p class="work-body">Supercomputers slow down without warning. I built systems that catch the drift early, with very few examples to learn from.</p>
         </li>
         <li>
           <div class="work-head">
             <h3>Boston University</h3>
             <p class="work-role">PhD, Computer Engineering · PeacLab</p>
-            <p class="work-when">2018 — 2024</p>
+            <p class="work-when">2018-2024</p>
           </div>
-          <p class="work-body">Dissertation: machine learning-based performance analytics for HPC. Fulbright, R&amp;D 100 finalist, twelve papers.</p>
+          <p class="work-body">Big systems generate more data than people can read. I built ML that explains what’s wrong, not just that something is. Deployed it on a production supercomputer at Sandia. Fulbright Grantee, R&amp;D 100 finalist.</p>
         </li>
       </ol>
     </section>
 
     <section class="block" id="papers">
       <h2 class="label reveal">Papers</h2>
-      <details class="papers-box">
-        <summary>Twelve papers — TPDS, SC, HPDC, and the rest</summary>
-        <ol class="pub-list">
-          <li>
-            <strong>Burak Aksar</strong>, Efe Sencan, Benjamin Schwaller, Omar Aaziz, Vitus J. Leung, Jim Brandt, Brian Kulis, and Ayse K. Coskun. Runtime Performance Anomaly Diagnosis in Production HPC Systems Using Active Learning. <em>IEEE Transactions on Parallel and Distributed Systems (TPDS)</em>, April 2024.
-          </li>
-          <li>
-            <strong>Burak Aksar</strong>, Yara Rizk, Tathagata Chakraborti, Kartik Talamadupula. TESS: A Multi-intent Parser for Conversational Multi-Agent Systems with Decentralized Natural Language Understanding Models. <em>arXiv</em>, December 2023.
-          </li>
-          <li>
-            <strong>Burak Aksar</strong>, Efe Sencan, Benjamin Schwaller, Omar Aaziz, Vitus J. Leung, Jim Brandt, Brian Kulis, and Ayse K. Coskun. Prodigy: Towards Unsupervised Anomaly Detection in Production HPC Systems. <em>ACM SC</em>, November 2023.
-          </li>
-          <li>
-            <strong>Burak Aksar</strong>, Efe Sencan, Benjamin Schwaller, Vitus J. Leung, Jim Brandt, Brian Kulis, and Ayse K. Coskun. Towards Practical Machine Learning Frameworks for Performance Diagnostics in Supercomputers. <em>ACM HPDC</em>, June 2023.
-          </li>
-          <li>
-            Tathagata Chakraborti, Yara Rizk, Vatche Isahagian, <strong>Burak Aksar</strong>, Francesco Fuggitti. From Natural Language to Workflows: Towards Emergent Intelligence in Robotic Process Automation. <em>BPM</em>, July 2022.
-          </li>
-          <li>
-            <strong>Burak Aksar</strong>, Efe Sencan, Benjamin Schwaller, Omar Aaziz, Vitus J. Leung, Jim Brandt, Brian Kulis, and Ayse K. Coskun. ALBADross: Active Learning Based Anomaly Diagnosis for Production HPC Systems. <em>IEEE Cluster</em>, July 2022. <a href="https://github.com/peaclab/ALBADross" target="_blank" rel="noopener">Code</a>
-          </li>
-          <li>
-            Yijia Zhang, <strong>Burak Aksar</strong>, Omar Aaziz, Benjamin Schwaller, Jim Brandt, Vitus J. Leung, Manuel Egele, and Ayse K. Coskun. Using Monitoring Data to Improve HPC Performance via Network-Data-Driven Allocation. <em>HPEC</em>, September 2021.
-          </li>
-          <li>
-            <strong>Burak Aksar</strong>, Benjamin Schwaller, Omar Aaziz, Vitus J. Leung, Jim Brandt, Manuel Egele, and Ayse K. Coskun. E2EWatch: An End-to-end Anomaly Diagnosis Framework for Production HPC Systems. <em>Euro-Par</em>, August 2021. <a href="https://github.com/peaclab/E2EWatch" target="_blank" rel="noopener">Code</a>
-          </li>
-          <li>
-            <strong>Burak Aksar</strong>, Yijia Zhang, Emre Ates, Benjamin Schwaller, Omar Aaziz, Vitus J. Leung, Jim Brandt, Manuel Egele, and Ayse K. Coskun. Proctor: A Semi-Supervised Performance Anomaly Diagnosis Framework for Production HPC Systems. <em>ISC-HPC</em>, June 2021. <a href="https://github.com/peaclab/Proctor" target="_blank" rel="noopener">Code</a>
-          </li>
-          <li>
-            Emre Ates, <strong>Burak Aksar</strong>, Vitus J. Leung, and Ayse K. Coskun. Counterfactual Explanations for Multivariate Time Series. <em>IEEE ICAPAI</em>, May 2021. <a href="https://github.com/peaclab/CoMTE" target="_blank" rel="noopener">Code</a>
-          </li>
-          <li>
-            Emre Ates, <strong>Burak Aksar</strong>, Vitus J. Leung, Ayse K. Coskun. Explainable Machine Learning Frameworks for Managing HPC Systems. <em>ML for Computing Systems Workshop, ACM SC</em>, November 2020.
-          </li>
-          <li>
-            Emre Ates, Yijia Zhang, <strong>Burak Aksar</strong>, Jim Brandt, Vitus J. Leung, Manuel Egele, and Ayse K. Coskun. HPAS: An HPC Performance Anomaly Suite for Reproducing Performance Variations. <em>ICPP</em>, August 2019. <a href="https://github.com/peaclab/HPAS" target="_blank" rel="noopener">Code</a>
-          </li>
-        </ol>
-      </details>
+      <table class="pubs">
+        <tbody>
+          <tr>
+            <td>2024</td>
+            <td>TPDS</td>
+            <td><a href="https://doi.org/10.1109/TPDS.2024.3365462" target="_blank" rel="noopener">Runtime anomaly diagnosis in production HPC, with active learning</a></td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>arXiv</td>
+            <td><a href="https://arxiv.org/abs/2312.11828" target="_blank" rel="noopener">TESS: multi-intent parser for conversational multi-agent systems</a></td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>SC</td>
+            <td><a href="https://doi.org/10.1145/3581784.3607076" target="_blank" rel="noopener">Prodigy: unsupervised anomaly detection in production HPC</a> <a href="https://github.com/peaclab/Prodigy" target="_blank" rel="noopener">code</a></td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>HPDC</td>
+            <td>Practical ML frameworks for performance diagnostics</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>BPM</td>
+            <td>From natural language to workflows in RPA</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>Cluster</td>
+            <td>ALBADross: active learning for anomaly diagnosis <a href="https://github.com/peaclab/ALBADross" target="_blank" rel="noopener">code</a></td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>HPEC</td>
+            <td>Network-data-driven allocation for HPC</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Euro-Par</td>
+            <td>E2EWatch: end-to-end anomaly diagnosis <a href="https://github.com/peaclab/E2EWatch" target="_blank" rel="noopener">code</a></td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>ISC</td>
+            <td>Proctor: semi-supervised anomaly diagnosis <a href="https://github.com/peaclab/Proctor" target="_blank" rel="noopener">code</a></td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>ICAPAI</td>
+            <td>Counterfactual explanations for multivariate time series <a href="https://github.com/peaclab/CoMTE" target="_blank" rel="noopener">code</a></td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>SC</td>
+            <td>Explainable ML frameworks for managing HPC systems</td>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>ICPP</td>
+            <td>HPAS: anomaly suite for reproducing performance variations <a href="https://github.com/peaclab/HPAS" target="_blank" rel="noopener">code</a></td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
-    <section class="block reveal" id="contact">
-      <h2 class="label">Coffee</h2>
+    <section class="block" id="notes">
+      <h2 class="label reveal">Also</h2>
+      <p class="aside">
+        In my free time I’m trying to perfect espresso, and learning to produce
+        electronic music, drums mostly. Always down for any form of volleyball:
+        if your indoor league needs a sub, or you need an extra for grass,
+        DMs are open. Feel free to send cocktail and restaurant recommendations,
+        including what to try.
+      </p>
+    </section>
+
+    <section class="block" id="hi">
+      <h2 class="label reveal">Hi</h2>
       <div>
         <p class="statement">
-          I might know a little more than what’s here —
-          we gotta find a reason to have a cup of coffee, right?
+          Email me, or find me on X.
         </p>
         <p class="links">
-          <a href="mailto:burakaksar599@gmail.com">Email</a>
+          <a href="mailto:burakaksar599@gmail.com">burakaksar599@gmail.com</a>
+          <a href="https://twitter.com/skyraxai" target="_blank" rel="noopener">X</a>
           <a href="https://github.com/aksarburak" target="_blank" rel="noopener">GitHub</a>
           <a href="https://www.linkedin.com/in/burakaksar" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://twitter.com/skyraxai" target="_blank" rel="noopener">Twitter</a>
+          <a href="https://scholar.google.com/citations?user=aDQvDDoAAAAJ" target="_blank" rel="noopener">Scholar</a>
         </p>
       </div>
     </section>
   </main>
 
   <footer class="colophon">
-    <p>Talk is cheap. Show me the code.</p>
     <p>burakaksar.com</p>
   </footer>
 

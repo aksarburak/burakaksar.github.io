@@ -10,7 +10,7 @@ if (document.documentElement.classList.contains("js-anim")) {
   intro
     .fromTo(".mast", { y: -12 }, { opacity: 1, y: 0, duration: 0.65 }, 0)
     .to(".clip-inner", { y: 0, duration: 1.1, stagger: 0.12, ease: "power4.out" }, 0.1)
-    .fromTo(".lede", { y: 16 }, { opacity: 1, y: 0, duration: 0.75 }, 0.55);
+    .fromTo(".lede", { y: 16 }, { opacity: 1, y: 0, duration: 0.75 }, 0.45);
 
   gsap.utils.toArray(".reveal").forEach((el) => {
     gsap.fromTo(
