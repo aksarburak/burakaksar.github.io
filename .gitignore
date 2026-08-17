@@ -3,3 +3,7 @@
 Gemfile.lock
 _site/
 vendor/
+.local
+node_modules/
+dist/
+
