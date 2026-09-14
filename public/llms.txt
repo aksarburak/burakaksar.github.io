@@ -1,0 +1,21 @@
+# Burak Aksar
+
+> CTO and co-founder with a PhD in machine learning systems. I build production AI end-to-end.
+
+## Work
+
+- [Spiky.ai](https://spiky.ai): CTO and co-founder. Building AI that finds the patterns behind successful sales conversations and helps representatives apply them live.
+- IBM AI Research: Worked on explainable chatbot decisions and built a multi-intent parser that matched deep learning accuracy at 48 times the speed. The work produced two patents.
+- Sandia National Laboratories: Built machine learning systems that detect performance problems in production supercomputers.
+- Boston University: PhD in Computer Engineering focused on explainable machine learning for large-scale computing systems.
+
+## Research
+
+- [Google Scholar](https://scholar.google.com/citations?user=aDQvDDoAAAAJ)
+- [GitHub](https://github.com/aksarburak)
+
+## Contact
+
+- [Email](mailto:burakaksar599@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/burakaksar)
+- [X](https://twitter.com/skyraxai)
